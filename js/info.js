@@ -54,18 +54,15 @@ do {
   cliente = prompt("Ingrese el nombre del cliente:");
 
   while(cliente == "" || cliente == null || !isNaN(cliente)) {
-
-    alert("ERROR. Nombre inválido.");
-
-    cliente = prompt("Ingrese el nombre del cliente:");
+alert("ERROR. Nombre inválido.");
+cliente = prompt("Ingrese el nombre del cliente:");
   }
 
-  cliente = cliente.toUpperCase();
+cliente = cliente.toUpperCase();
 
   // ─── CORREO ────────────────────────────────────────────
 
   correo = prompt("Ingrese el correo del cliente:");
-
   while(correo == "" || correo == null || !correo.includes("@")) {
 
     alert("ERROR. Correo inválido.");
@@ -106,9 +103,9 @@ do {
 
         opcion = prompt(
           "Seleccione destino:\n" +
-          "1 → Bogotá\n" +
-          "2 → Medellín\n" +
-          "3 → Cartagena"
+          "1 → Bogotá ( valor = 350000)\n" +
+          "2 → Medellín (valor = 280000)\n" +
+          "3 → Cartagena (valor = 420000)"
         );
 
         switch(opcion) {
@@ -146,9 +143,9 @@ do {
 
         opcion = prompt(
           "Seleccione hospedaje:\n" +
-          "1 → Hotel Caribe\n" +
-          "2 → Hotel Andino\n" +
-          "3 → Hotel Campestre"
+          "1 → Hotel Caribe (valor = 180000)\n" +
+          "2 → Hotel Andino ( valor = 120000)\n" +
+          "3 → Hotel Campestre ( valor = 150000)"
         );
 
         switch(opcion) {
@@ -186,9 +183,9 @@ do {
 
         opcion = prompt(
           "Seleccione vehículo:\n" +
-          "1 → Económico\n" +
-          "2 → Familiar\n" +
-          "3 → Camioneta 4x4"
+          "1 → Económico (valor = 90000)\n" +
+          "2 → Familiar (valor = 140000)\n" +
+          "3 → Camioneta 4x4 (valor = 200000)"
         );
 
         switch(opcion) {
@@ -226,16 +223,16 @@ do {
 
         opcion = prompt(
           "Seleccione destino:\n" +
-          "1 → Isla del Rosario\n" +
-          "2 → Ciudad Amurallada\n" +
-          "3 → Sierra Nevada"
+          "1 → Isla del Rosario  (valor = 300000)\n" +
+          "2 → Ciudad Amurallada (valor = 180000)\n" +
+          "3 → Sierra Nevada (valor = 220000)"
         );
 
         switch(opcion) {
 
           case "1":
             detalle = "Isla del Rosario - Snorkel y almuerzo";
-            valor = 250000;
+            valor = 300000;
             break;
 
           case "2":
