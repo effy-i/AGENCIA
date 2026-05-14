@@ -416,7 +416,7 @@ document.write(
   nivel1 +
   " | Ventas: $" +
   recaudoAsesor1.toLocaleString() +
-  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  " |
   "</p>"
 );
 
@@ -427,7 +427,7 @@ document.write(
   nivel2 +
   " | Ventas: $" +
   recaudoAsesor2.toLocaleString() +
-  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  " |
   "</p>"
 );
 
@@ -438,7 +438,7 @@ document.write(
   nivel3 +
   " | Ventas: $" +
   recaudoAsesor3.toLocaleString() +
-  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  " |
   "</p>"
 );
 
@@ -449,7 +449,7 @@ document.write(
   nivel4 +
   " | Ventas: $" +
   recaudoAsesor4.toLocaleString() +
-  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  " | 
   "</p>"
 );
 
