@@ -381,8 +381,6 @@ else {
 
 // ─── RESULTADOS ──────────────────────────────────────────
 
-document.write("<h1>TravelWorld Experience</h1>");
-
 document.write("<div class='card'>");
 
 document.write(resumen);
