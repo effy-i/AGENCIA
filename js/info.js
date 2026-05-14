@@ -410,19 +410,47 @@ document.write(
 document.write("<h2>Nivel de asesores</h2>");
 
 document.write(
-  "<p>" + asesor1 + ": " + nivel1 + "</p>"
+  "<p>" +
+  asesor1 +
+  ": " +
+  nivel1 +
+  " | Ventas: $" +
+  recaudoAsesor1.toLocaleString() +
+  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  "</p>"
 );
 
 document.write(
-  "<p>" + asesor2 + ": " + nivel2 + "</p>"
+  "<p>" +
+  asesor2 +
+  ": " +
+  nivel2 +
+  " | Ventas: $" +
+  recaudoAsesor2.toLocaleString() +
+  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  "</p>"
 );
 
 document.write(
-  "<p>" + asesor3 + ": " + nivel3 + "</p>"
+  "<p>" +
+  asesor3 +
+  ": " +
+  nivel3 +
+  " | Ventas: $" +
+  recaudoAsesor3.toLocaleString() +
+  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  "</p>"
 );
 
 document.write(
-  "<p>" + asesor4 + ": " + nivel4 + "</p>"
+  "<p>" +
+  asesor4 +
+  ": " +
+  nivel4 +
+  " | Ventas: $" +
+  recaudoAsesor4.toLocaleString() +
+  " | Criterio: Élite ≥ $2.000.000 / Destacado ≥ $1.000.000" +
+  "</p>"
 );
 
 document.write("<h2>Servicios vendidos</h2>");
