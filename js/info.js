@@ -265,10 +265,10 @@ document.write("<p><span class='label'>Mejor asesor:</span> " + mejorAsesor + "<
 
 document.write("<h2>Nivel de asesores</h2>");
 
-document.write("<p>" + asesor1 + ": " + nivel1 + " | Ventas: $" + recaudoAsesor1.toLocaleString("es-CO") + "</p>");
-document.write("<p>" + asesor2 + ": " + nivel2 + " | Ventas: $" + recaudoAsesor2.toLocaleString("es-CO") + "</p>");
-document.write("<p>" + asesor3 + ": " + nivel3 + " | Ventas: $" + recaudoAsesor3.toLocaleString("es-CO") + "</p>");
-document.write("<p>" + asesor4 + ": " + nivel4 + " | Ventas: $" + recaudoAsesor4.toLocaleString("es-CO") + "</p>");
+document.write("<p>" + asesor1 + ": " + nivel1 + " | Ventas: $" + recaudoAsesor1.toLocaleString() + "</p>");
+document.write("<p>" + asesor2 + ": " + nivel2 + " | Ventas: $" + recaudoAsesor2.toLocaleString() + "</p>");
+document.write("<p>" + asesor3 + ": " + nivel3 + " | Ventas: $" + recaudoAsesor3.toLocaleString() + "</p>");
+document.write("<p>" + asesor4 + ": " + nivel4 + " | Ventas: $" + recaudoAsesor4.toLocaleString() + "</p>");
 
 document.write("<h2>Servicios vendidos</h2>");
 document.write("<p>Tiquetes: "  + ventasTiquetes  + "</p>");
